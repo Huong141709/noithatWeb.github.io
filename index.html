@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Website nội thất</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Website nội thất là giao diện hiện đại dành cho các website bán đồ nội thất, siêu thị nội thất gia đình.">
+  <link rel="stylesheet" href="midtermtext.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body >
+    <style>
+        div.a {
+            text-align: center;
+        }
+    </style>
+    <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>                        
+            </button>
+            <a class="navbar-brand" href="#">WebSiteNoiThat</a>
+          </div>
+          <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav">
+              <li class="active"><a href="#">Trang chủ</a></li>
+              <li class="dropdown">
+                <ul class="nav navbar-nav">
+                  <li class="active"><a href="#">Giới thiệu</a></li>
+                  <li class="dropdown"> 
+                <a class="dropdown-toggle" data-toggle="dropdown" href="#">Sảm phẩm <span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                  <li><a href="#">Sản phẩm 1-1</a></li>
+                  <li><a href="#">Sản phẩm 1-2</a></li>
+                  <li><a href="#">Sản phẩm 1-3</a></li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+              <li><a class="dropdown-toggle" data-toggle="dropdown" href="#"> Hàng mới về <span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                  <li><a href="#"> Ghế sofa</a></li>
+                  <li><a href="#">Bàn trà  </a></li>
+                  <li><a href="#">Tủ bếp</a></li>
+                </ul></li>
+
+              <li><a class="dropdown-toggle" data-toggle="dropdown" href="#">Tin tức<span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                  <li><a href="#">Trang 1</a></li>
+                  <li><a href="#">Trang 2</a></li>
+                  <li><a href="#">Trang 3</a></li>
+                </ul></li>
+            </ul>
+
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="#"><span class="glyphicon glyphicon-user"></span> Đăng ký</a></li>
+              <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Đăng nhập</a></li>
+            </ul>
+          </div>
+        </div>
+    </nav>
+    <!--  -->
+    <class="row">
+      <!-- logo -->
+      <div class="col-sm-1" style="margin-block-end: 10px ;">
+        <img src="https://i.pinimg.com/564x/dc/fe/1c/dcfe1c4a4ef528cfd8b82f870e3281c1.jpg" class="rounded-circle" 
+        alt="ảnh logo" width="200" height="200" >
+      </div>
+<!-- khung tìm kiếm --> 
+      <div class="col-sm-10" style="margin-left: 100px ;">  
+        <div class=" search-bar">
+          <form action="/search" method="get" class=" has-validation-callback">
+            <div class="input-group">
+                <div class="input-group-addon"><i class="fa-duotone fa-magnifying-glass"></i></div>
+                  <input type="text" name="query" class="search-auto form-control" placeholder="Bạn muốn tìm kiếm gì ">
+                    <span class=" input-group-btn">...</span>
+            </div>
+          </form>
+        </div>
+      </div>
+    
+<!-- CHỦ ĐỀ -->
+      <div class="a">
+        <div>-</div>
+      <h1><h1>CỬA HÀNG NỘI THẤT </h1></h1>
+      <p>▶️ Bảo hành tất cả mặt hàng từ 2 năm đến 5 năm.</p> 
+      <p>▶️ Nhận lắp đặt và tư vấn các mặt hàng trên toàn quốc.</p> 
+      <p>▶️ Quý khách có thể tới trực tiếp cơ sở để lựa chọn các sản phẩm.</p>
+      </div>
+    </div> 
+     <!-- MENU VÀ BẰNG CHUYỀN  -->
+    <div class="row">
+      <div id="myCarousel" class="carousel slide" data-ride="carousel" >
+          <!-- Các chỉ số -->
+          <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+          </ol>
+        
+          <!-- Thiết kế hiệu ứng băng chuyền -->
+          <div class="carousel-inner" style="background-color:rgba(180, 140, 178, 0.526) ;">
+            <div class="item active">
+              <img src="https://i.pinimg.com/236x/cf/8a/a5/cf8aa507665902b6f0275ce3ea66dca2.jpg" alt="sofa">
+              <div class="carousel-caption">
+                <h3> NỘI THẤT</h3>
+                <p>Chọn sofa tinh tế và chất lượng cho phòng khách của bạn tại Nội thất Nhà Xinh, luôn cập nhật những thiết kế mới, hiện đại, sofa góc, sofa da, sofa vải</div>
+            </div>
+
+            <div class="item">
+              <img src="https://i.pinimg.com/236x/67/79/c6/6779c605511ec44a399921aabe71c454.jpg" alt="giuong">
+              <div class="carousel-caption">
+                <h3>NỘI THẤT</h3>
+                <p>Nội thất phòng ngủ luôn là vấn đề được nhiều người quan tâm bởi đơn giản đó chính là không gian riêng, nơi chúng ta thư giãn sau một ngày dài mệt mỏi, tự do làm những điều mà mình thích cũng như có những giây phút nghỉ ngơi thoải mái nhất. Chính vì vậy, nhiều người luôn muốn chiếc giường của mình thật đặc biệt, ấn tượng và đầy tiện nghi.</p>
+              </div>
+            </div>
+          </div>
+          <!-- Điều khiển trái và phải -->
+          <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="right carousel-control" href="#myCarousel" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right"></span>
+            <span class="sr-only">Next</span>
+          </a>
+      </div>
+    </div>
+   <!--   -->
+    <div class="container">
+      <h2 style="text-align:center">Sản phẩm mới ra mắt</h2>
+      <h5 style="color: white;text-align:center "> <a href="#">NỘI THẤT GỖ</a>------<a href="#">NỘI THẤT GỖ</a>-----<a href="#">ĐỒ TRANG TRÍ</a>-----<a href="#">ĐỒ DÙNG VẢI</a></h5>
+      <div class="row2">
+        <div class="col-md-3">
+          <div class="thumbnail">
+            <a href="https://i.pinimg.com/236x/7f/83/4d/7f834d194b186377b10c7922c2012b05.jpg" target="bàn trang điểm">
+              <img src="https://i.pinimg.com/236x/7f/83/4d/7f834d194b186377b10c7922c2012b05.jpg" alt="Bàn trang điểm" style="width:72%">
+              <div class="caption">
+                <h3>Bàn trang điểm</h3>
+                <p>Giảm giá đến 30% giá gốc, hàng Việt Nam chất lượng cao</p>
+                <h4 style="color:rgb(227, 127, 14) ;" >12.500.000đ</h4>
+
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="thumbnail">
+            <a href="/https://i.pinimg.com/236x/5e/f9/1a/5ef91afa5c6990e9802ce18171540fff.jpg" target="Tủ quần áo">
+              <img src="https://i.pinimg.com/236x/5e/f9/1a/5ef91afa5c6990e9802ce18171540fff.jpg" alt="Tủ quần áo" style="width:72%">
+              <div class="caption">
+                <h3>Tủ quần áo</h3>
+                <p>Giảm giá đến 30% giá gốc, hàng Việt Nam chất lượng cao</p>
+                <h4 style="color:rgb(227, 127, 14) ;" >5.000.000đ</h4>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="thumbnail">
+            <a href="https://i.pinimg.com/236x/41/02/ce/4102cefc2d27dc2109b57b06033aacc5.jpg" target="sofa">
+              <img src="https://i.pinimg.com/236x/41/02/ce/4102cefc2d27dc2109b57b06033aacc5.jpg" alt="sofa" style="width:72%">
+              <div class="caption">
+                <h3>Ghế sofa</h3>
+                <p>Giảm giá đến 30% giá gốc, hàng Việt Nam chất lượng cao.</p>
+                <h4 style="color:rgb(227, 127, 14) ;" >9.300.000đ</h4>
+
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="thumbnail">
+            <a href="https://i.pinimg.com/236x/29/4d/be/294dbe19217a6e97a83da6803a421d83.jpg" target="sofa">
+              <img src="https://i.pinimg.com/236x/29/4d/be/294dbe19217a6e97a83da6803a421d83.jpg" alt="sofa">
+              <div class="caption">
+                <h3>Bồn tắm cao cấp </h3>
+                <p>Giảm giá đến 30% giá gốc, hàng Việt Nam chất lượng cao.</p>
+                <h4 style="color:rgb(227, 127, 14) ;" >2.390.000đ</h4>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Các phòng ngủ_làm việc -->
+    <div class="row0.1">
+      <div class="col-md-4">
+      <p><a href="#"><img src="https://i.pinimg.com/236x/7c/e0/87/7ce08731a2685fd4c672775625acb902.jpg" alt="1" width="420px" height="300px"></a></p>
+      </div>
+      <div class="col-md-4">
+        <p><a href="#"><img src="https://i.pinimg.com/236x/98/f8/14/98f8146e9a6bec1cd971b867d65a6243.jpg" alt="ảnh 2" width="420px" height="300px"> </a></p>
+      </div>
+      <div class="col-md-4">
+        <p><a href="#"><img src="https://i.pinimg.com/236x/a1/c0/cc/a1c0ccf7c4d88723e41aa19f47facaa8.jpg" alt="ảnh 3" width="420px" height="300px"> </a></p>
+        </div>
+
+    </div>
+    <div style="color:white ;">-----------------</div>
+    <!-- Phòng khách -->
+    <div class="row1">
+      <div class="col-md-6">
+         <div style="background-image:url(https://i.pinimg.com/236x/82/f1/e9/82f1e91b1f5605da8c36613b4637d500.jpg); height: 400px; width: 645px;"></div>
+         <!-- <p> <img src="https://i.pinimg.com/236x/82/f1/e9/82f1e91b1f5605da8c36613b4637d500.jpg" alt="ảnh vàng" width="645px" height="400px" ></p> -->
+      </div>
+      <div class="col-md-6">
+      <img src="https://i.pinimg.com/236x/69/d3/d9/69d3d9466e45bd22d911de691b40216b.jpg" alt="ảnh đen" width="645px" height="400px">
+      </div>
+    </div>
+    <!-- nội thất gỗ -->
+    <div style="color:white ;">-----------------</div>
+    <div class="row1.1">
+      <h4 style="text-align: center;">NỘI THẤT GỖ</h4>
+      <div class ="col-sm-3">
+        <p style="background-color:rgb(245, 245, 248);"><img src="https://bizweb.dktcdn.net/thumb/large/100/360/933/products/giuong-ngu-go-chat-luong-cao-cho-gia-dinh-ghs-9071-ava.jpg?v=1565273414883"lt="1" width="323px"; height="300"></p>
+        <h6 style="text-align: center">Nội thất</h6>
+        <p>Giường gỗ ngủ chất lượng cao cho gia...</p>
+        <h5 style="color:rgb(238, 118, 14) ;">1.390.000</h5>   
+      </div> 
+      <div class ="col-sm-3">
+        <p style="background-color:rgb(245, 245, 248);"><img src="https://bizweb.dktcdn.net/thumb/large/100/360/933/products/ezgif-2-c7f2105dbc1a.jpg?v=1565273733053"lt="2" width="323px"; height="300"></p>
+        <h6 style="text-align: center">Nội thất</h6>
+        <P>Mẫu giường ngủ gỗ thiết kế... </P> 
+        <h5 style="color:rgb(238, 118, 14) ;">1.390.000</h5>     
+      </div> 
+      <div class ="col-sm-3">
+        <p style="background-color:rgb(103, 103, 108);"><img src="https://bizweb.dktcdn.net/thumb/large/100/360/933/products/tu-bep-bang-go-tu-nhien-nho-gon-da-nang-tien-loi-ghs-5787-1.jpg?v=1598933882263"lt="3"width="323px"; height="300"></p>
+        <h6 style="text-align: center">Nội thất</h6>
+        <P>TỦ bếp gôc tự nhiên nhỏ gọn đa dạng...</P>    
+        <h5 style="color:rgb(238, 118, 14) ;">1.390.000</h5>  
+      </div> 
+      <div class ="col-sm-3">
+        <p style="background-color:rgb(245, 245, 248);"><img src="https://bizweb.dktcdn.net/thumb/large/100/360/933/products/tu-bep-gia-dinh-go-cong-nghiep-nho-gon-da-nang-ghs-5786-1.jpg?v=1598933931677"lt="4" width="323px"; height="300"></p>
+        <h6 style="text-align: center">Nội thất</h6>
+        <p>Tủ bếp gia đình gỗ công nghiệp nhỏ gọn...</p>    
+        <h5 style="color:rgb(238, 118, 14) ;">1.390.000</h5>  
+      </div> 
+    </div>
+    <!--  -->
+    <div class="row1">
+      <div class="col-md-6">
+        <p> <img src="https://bizweb.dktcdn.net/100/360/933/themes/728303/assets/evo_banner_two_1.jpg?1663835694812" alt="ảnh vàng" width="635px" ></p>
+      </div>
+      <div class="col-md-6">
+      <img src="https://bizweb.dktcdn.net/100/360/933/themes/728303/assets/evo_banner_two_2.jpg?1663835694812" alt="ảnh đen" width="635px">
+      </div>
+    </div>
+    <!--  -->
+    <div class="container1" style="color:white ">
+      <div class="btn-group btn-group-justified">
+        <a href="#" class="btn btn-primary" style="color:white ";>Nổi bật</a>
+        <a href="#" class="btn btn-primary" style="color:white ";>Bán chạy</a>
+        <a href="#" class="btn btn-primary" style="color:white ";>Khuyến mãi</a>
+      </div>
+    </div>
+    <div class="row2">
+      <div class="col-sm-4" >   
+        <p style="background-color:rgb(250, 250, 251);"> <img src="https://i.pinimg.com/236x/2f/c8/90/2fc890e6f92b8ee4aa4d5ad6ece30c28.jpg" alt="nội thất gỗ" width="420" height="200"></p>
+        <p style="background-color:rgb(255, 240, 240);"><img src="https://i.pinimg.com/236x/44/e8/bf/44e8bfa3babc55e48390037f9912556e.jpg" alt="nệm lo xo" width="420" height="200" ></p>
+        <p style="background-color:rgb(245, 245, 248);"><img src="https://i.pinimg.com/236x/4b/69/71/4b69717a7a29925c483c22e672f6d156.jpg" alt="nệm" width="420" height="200"></p>
+      </div>
+      <div class="col-sm-4" >
+        <p style="background-color:rgb(250, 250, 251);"> <img src="https://i.pinimg.com/236x/5b/f9/4a/5bf94af907fe32198b53ff25833336f6.jpg" alt="nội thất gỗ" width="425" height="200"></p>
+        <p style="background-color:rgb(255, 240, 240);"><img src="https://i.pinimg.com/236x/61/aa/e6/61aae663f70f06a6064d689b442039d6.jpg" alt="nệm lo xo" width="425" height="200"></p>
+        <p style="background-color:rgb(245, 245, 248);"><img src="https://i.pinimg.com/236x/27/3c/a4/273ca41155b0aa529a9a7a3b95028389.jpg" alt="nệm" width="425" height="200"></p>
+      </div>  
+      <div class="col-sm-4" >
+        <p style="background-color:rgb(250, 250, 251);"> <img src="https://i.pinimg.com/564x/81/06/ba/8106ba003f517119ffbeaa3a6eb2b1c5.jpg" alt="nội thất gỗ" width="415" height="200"></p>
+        <p style="background-color:rgb(255, 240, 240);"><img src="https://i.pinimg.com/236x/44/e8/bf/44e8bfa3babc55e48390037f9912556e.jpg" alt="nệm lo xo" width="415" height="200"></p>
+        <p style="background-color:rgb(245, 245, 248);"><img src="https://i.pinimg.com/236x/ec/8d/2a/ec8d2a292537157ea0050728d382eb0f.jpg" alt="nệm" width="415" height="200"></p>
+      </div>
+    </div>
+    <!-- Tư vấn  -->
+  <div class="row3">
+    <h4 style="text-align: center;">TƯ VẤN THIẾT KẾ </h4>
+    <div class ="col-sm-3">
+      <p style="background-color:rgb(245, 245, 248);"><img src="https://bizweb.dktcdn.net/thumb/large/100/360/933/articles/ezgif-4-17d1ea1d1572.jpg?v=1564535674483"lt="1" width="323px"; height="300"></p>
+      <h4>TẤM LƯỚI THAY TRẦN NHÀ GIÚP GIA CHỦ SÀI GÒN THƯ GIẢN </h4>
+      <P>Ban đầu, ngồi trên chiếc lưới dù treo trên trần phòng khách,chủ nhà cũng thấy"run", nhưng su khi...</P>    
+    </div> 
+    <div class ="col-sm-3">
+      <p style="background-color:rgb(245, 245, 248);"><img src="https://bizweb.dktcdn.net/thumb/large/100/360/933/articles/ezgif-com-crop.jpg?v=1564535486233"lt="2" width="323px"; height="300"></p>
+      <h4>CĂN HỘ 150 M2 KHÔNG TƯỜNG NGĂN Ở HÀ NỘI</h4>
+      <P>Phong thủy là một yếu tố quan trọng trong văn hóa và đời sống hàng ngày của người phương Đông nói chung và người Việt nói riêng. </P>    
+    </div> 
+    <div class ="col-sm-3">
+      <p style="background-color:rgb(245, 245, 248);"><img src="https://bizweb.dktcdn.net/thumb/large/100/360/933/articles/nha-phong-thuy-1-1024x720.jpg?v=1563505626573"lt="3"width="323px"; height="300"></p>
+      <h4>5 “CHIÊU” ĐƠN GIẢN CHO NGÔI NHÀ HỢP PHONG THỦY </h4>
+      <P>Phong thủy là một yếu tố quan trọng trong văn hóa và đời sống hàng ngày của người phương Đông nói chung và ...</P>    
+    </div> 
+    <div class ="col-sm-3">
+      <p style="background-color:rgb(245, 245, 248);"><img src="https://bizweb.dktcdn.net/thumb/large/100/360/933/articles/untitled-1.jpg?v=1563505488607"lt="4" width="323px"; height="300"></p>
+      <h4>BÍ KÍP PHÒNG ĂN CHO NGÔI NHÀ NHỎ MÀ "CÓ VÕ"</h4>
+      <P>Đối với ngôi nhà nhỏ, bạn cần cân nhắc chọn lựa kích thước nội thất sao cho tối ưu nhất. Những bộ bàn ghế ăn theo phong cách tối giản, với màu gỗ tự nhiên tươi sáng sẽ mang lại ...</P>    
+    </div> 
+  </div>
+    <!-- Cac hinh logo -->
+    <div class="logo">
+      <p style="color:rgba(221, 200, 200, 0.68) ;">-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------</p>
+      <div class="col-sm-2">
+        <p> <img src="https://bizweb.dktcdn.net/thumb/large/100/360/933/themes/728303/assets/partner_1.jpg?1663835694812" alt="anh1"></p>
+      </div>
+      <div class="col-sm-2">
+        <p> <img src="https://bizweb.dktcdn.net/thumb/large/100/360/933/themes/728303/assets/partner_2.jpg?1663835694812" alt="anh2"></p>
+      </div>
+      <div class="col-sm-2">
+        <p> <img src="https://bizweb.dktcdn.net/thumb/large/100/360/933/themes/728303/assets/partner_3.jpg?1663835694812" alt="anh3"></p>
+      </div>
+      <div class="col-sm-2">
+        <p> <img src="https://bizweb.dktcdn.net/thumb/large/100/360/933/themes/728303/assets/partner_4.jpg?1663835694812" alt="anh4"></p>
+      </div>
+      <div class="col-sm-2">
+        <p> <img src="https://bizweb.dktcdn.net/thumb/large/100/360/933/themes/728303/assets/partner_5.jpg?1663835694812" alt="anh5"></p>
+      </div>
+      <div class="col-sm-2">
+        <p> <img src="https://bizweb.dktcdn.net/thumb/large/100/360/933/themes/728303/assets/partner_6.jpg?1663835694812" alt="anh6"></p>
+      </div>
+    </div>
+    <!-- Bảng ghi chú  -->
+    <div class="col-sm-12" style="background-color:black">
+      <div class="container mt-5" style="background-color:rgb(7, 7, 7);height: 20px;">
+        <div class="row" style="color:white;">
+          <div class="col-sm-3">
+            <h4>VỀ CHÚNG TÔI</h4>
+            <p ><a href="#" style="color:white;">Trang Chủ </a></p>
+            <p><a href="#" style="color:white;" >Giới Thiệu</a></p>
+            <p><a href="#" style="color:white;" >Sản Phẩm</a></p>
+            <p><a href="#" style="color:white;" >Hàng Mới Về</a></p>
+            <p><a href="#" style="color:white;" >Tin Tức</a></p>
+            <p><a href="#" style="color:white;" >Liên hệ</a></p>
+          </div>
+          <div class="col-sm-3">
+            <h4>HỖ TRỢ KHÁCH HÀNG</h4>
+            <p ><a href="#" style="color:white;">Trang Chủ </a></p>
+            <p><a href="#" style="color:white;" >Giới Thiệu</a></p>
+            <p><a href="#" style="color:white;" >Sản Phẩm</a></p>
+            <p><a href="#" style="color:white;" >Hàng Mới Về</a></p>
+            <p><a href="#" style="color:white;" >Tin Tức</a></p>
+            <p><a href="#" style="color:white;" >Liên hệ</a></p>
+          </div>
+          <div class="col-sm-3">
+            <h4>LIÊN HỆ VỚI CHÚNG TÔI</h4>        
+            <h4 style="color:rgb(252, 107, 11);"> Địa chỉ</h4>
+            <p>70 Lu Gia, Ward 15, District 11, Ho Chi Minh City</p>
+            <h4  style="color:rgb(252, 107, 11);" >Hotline</h4>
+            <p>1900 6750</p>
+            <h4  style="color:rgb(252, 107, 11);" >Email</h4>
+            <p> support@sapo.vn</p>
+          </div>
+          <div class="col-sm-3">
+            <h4>ĐĂNG KÝ NHẬN BẢN TIN</h4>
+            <hr class="hr1"></hr>
+            <form class="form" >
+              <span ><input style="height: 32px;" type="email" class="form__field" placeholder="Email của bạn" /> </span>
+                <span><button type="button" class="btn btn--primary  uppercase" style="color: black;">Gửi</button> </span>  
+                <p></p> 
+                <p>Bạn là khách hàng mới. Đăng kí email và nhận mã giảm giá 50.000 đ.</p>    
+                <img src="https://bizweb.dktcdn.net/100/360/933/themes/728303/assets/payment-1.svg?1663835694812" alt="https://themes.sapo.vn/demo/evo-noi-that" height="20%" width="20%">
+                <img src="https://bizweb.dktcdn.net/100/360/933/themes/728303/assets/payment-2.svg?1663835694812" alt="https://themes.sapo.vn/demo/evo-noi-that" height="20%" width="20%">
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-12" style="background-color:black">
+      <p>_______________________________________________________________________________________________________________________________________________________________</p>
+      <h6 style="text-align: center; color:white;">@bản quyền thuộc về Evo Themes|Cung cấp bởi Sapo</h6>
+      </div>
+    </div>
+</body>
